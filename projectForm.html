@@ -1,0 +1,11 @@
+<template>
+    <lightning-card title="Project Form" icon-name="standard:project">
+
+        <lightning-input label="Project Name" value={projectName} onchange={handleNameChange}></lightning-input>
+        <lightning-input type="date" label="Start Date" value={startDate} onchange={handleStartDateChange}></lightning-input>
+        <lightning-input type="date" label="End Date" value={endDate} onchange={handleEndDateChange}></lightning-input>
+        <lightning-combobox label="Status" value={status} placeholder="Select Status" options={statusOptions} onchange={handleStatusChange}></lightning-combobox>
+        <lightning-button label="Save" onclick={handleSave}></lightning-button>
+        
+    </lightning-card>
+</template>
