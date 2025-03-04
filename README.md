@@ -1,7 +1,10 @@
 # ProjectEy
-This project demonstrates automation in Salesforce using Apex, Lightning Web Components (LWC), Flows, Approval Processes, REST API integrations, and batch Apex. It includes a custom object (Project__c) and various automation processes to manage project records.
+
+## Overview
+. This project demonstrates automation in Salesforce using Apex, Lightning Web Components (LWC), Flows, Approval Processes, REST API integrations, and batch Apex. It includes a custom object (Project__c) and various automation processes to manage project records.
 
 ##Setup Instructions
+
 ##1. Custom Object and Fields
 . Create a custom object named Project__c with the following fields:
 . Name (Text)
